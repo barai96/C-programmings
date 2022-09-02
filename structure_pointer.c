@@ -18,13 +18,13 @@ int main()
     printf("Enter strength \n");        
     scanf("%d",&n);
     struct student s[n];                
-    for (i=0;i<n;i++)                   
-          display(&s[i]);
+    for (i=0;i<n;i++)
       {
         enter(&s[i]);
       }
       
-    for (i=0;i<n;i++)                    
+    for (i=0;i<n;i++)
+      {                   
           display(&s[i]);
       }
     return 0;
